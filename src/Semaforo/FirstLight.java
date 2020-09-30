@@ -14,8 +14,8 @@ public class FirstLight extends JComponent {
         String activeLight = "red";
 
         public void paintComponent (Graphics g){
-            g.setColor(Color.darkGray);
-            g.setColor(Color.darkGray);
+            g.setColor(Color.black);
+            g.setColor(Color.black);
             g.fillRect(0, 0, 50, 130);
 
             g.setColor(stop);
